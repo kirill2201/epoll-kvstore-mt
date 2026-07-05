@@ -1,6 +1,6 @@
 # epoll-kvstore-mt
 
-A multi-threaded version of [epoll-kvstore](../epoll-kvstore): the same
+A multi-threaded version of [epoll-kvstore](https://github.com/kirill2201/epoll-kvstore): the same
 event-driven TCP key-value store, scaled across CPU cores using
 `SO_REUSEPORT` and per-worker `epoll` loops. Built to measure whether — and
 by how much — threading helps an I/O-bound server, not to assume it does.
