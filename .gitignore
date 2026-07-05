@@ -1,0 +1,16 @@
+*.o
+*.out
+a.out
+
+server
+server_mt
+bench
+bench_mt
+
+*dSYM/
+.vscode
+
+*.swp
+
+EOF
+
